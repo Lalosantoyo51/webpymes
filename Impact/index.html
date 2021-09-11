@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home | Impact By Distinctive Themes</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/pe-icons.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon-57x57.png">
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            'use strict';
+            jQuery('body').backstretch([
+                "images/bg/bg1.jpg",
+                "images/bg/bg2.jpg",
+                "images/bg/bg3.jpg"
+            ], { duration: 5000, fade: 500, centeredY: true });
+
+            $("#mapwrapper").gMap({
+                controls: false,
+                scrollwheel: false,
+                markers: [{
+                    latitude: 40.7566,
+                    longitude: -73.9863,
+                    icon: {
+                        image: "images/marker.png",
+                        iconsize: [44, 44],
+                        iconanchor: [12, 46],
+                        infowindowanchor: [12, 0]
+                    }
+                }],
+                icon: {
+                    image: "images/marker.png",
+                    iconsize: [26, 46],
+                    iconanchor: [12, 46],
+                    infowindowanchor: [12, 0]
+                },
+                latitude: 40.7566,
+                longitude: -73.9863,
+                zoom: 14
+            });
+        });
+    </script>
+</head>
+<!--/head-->
+
+<body>
+    <div id="preloader"></div>
+    <header class="navbar navbar-inverse navbar-fixed-top " role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <h1><span class="pe-7s-gleam bounce-in"></span> IMPACT</h1>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li><a href="about-us.html">Nosotros</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <i
+                                class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="servicios/proyectos.html">Proyectos Castrastales</a></li>
+                            <li><a href="servicios/consultoria.html">Consultaria en el desarrollo <br> de sistemas de
+                                    información</a></li>
+                            <li><a href="servicios/geolocalizacion.html">Geolocalización y <br> Georreferenciación</a>
+                            </li>
+                            <li><a href="servicios/migracion.html">MIGRACIÓN E INTEGRACIÓN <br> DE DATOS</a></li>
+                            <li><a href="servicios/cartografia.html">CARTOGRAFÍA BÁSICA Y TEMÁTICOS</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCTOS <i
+                                class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="productos/sistema-de-informacion.html">Sistema de informacion <br> de gestion
+                                    territorial</a></li>
+                            <li><a href="productos/integracion-de-informacion.html">Integracion de informacion</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">CAPACITACIONES <i
+                                class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="capacitaciones/arcobjects-y-visual.html">DESARROLLO WEB GIS E IMPLEMENTACIÓN DE <br> SERVIDOR DE MAPAS CON
+                                    MAPSERVER</a></li>
+                            <li><a href="capacitaciones/implementacion-de-servidor.html">ARCOBJECTS CON VISUAL STUDIO PARA ARCGIS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#clientes">CLIENTES</a></li>
+                    <li><a href="contact-us.html">CONTÁCTANOS</a></li>
+                    <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--/header-->
+
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content center centered">
+                                    <h2 class="boxed animation animated-item-1 fade-down">CONSULTORÍA EN EL DESARROLLO
+                                        DE SISTEMAS DE INFORMACIÓN</h2>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.item-->
+            </div>
+            <!--/.carousel-inner-->
+        </div>
+        <!--/.carousel-->
+    </section>
+    <!--/#main-slider-->
+
+    <div id="content-wrapper">
+        <section id="services" class="white">
+            <div class="container">
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center gap fade-down section-heading">
+                            <h2 class="main-title">SOLUCIONES TECNOLÓGICAS SISTÉMICAS S.A.C</h2>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-lg-6 ">
+                        <div class="service-block">
+                            <div class="media-body fade-up">
+                                <p class="parrafo">Somos una empresa especializada en desarrollo de soluciones de
+                                    sistemas de información que permite integrar información de los procesos de la
+                                    organización con la información geográfica, para que nuestros clientes puedan
+                                    visualizar información sobre el terreno y apoyar a la toma de decisiones que le
+                                    permita agregar valor a los servicios y productos que ofertan.</p>
+                            </div>
+
+                            <a class="btn btn-outlined btn-primary" href="#" data-filter="">Conocenos</a>
+                        </div>
+                    </div>
+                    <!--/.col-md-4-->
+                    <div class="col-lg-6">
+                        <div class="service-block">
+                            <img class="img img-responsive" src="images/portfolio/folio05.jpg" width="500">
+                        </div>
+                    </div>
+                    <!--/.col-md-4-->
+
+                </div>
+                <!--/.row-->
+
+            </div>
+            <div class="gap"></div>
+            <div style="background: rgba(135, 135, 255, 0.185);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="center gap fade-down section-heading">
+                                <h2 class="main-title">SERVICIOS</h2>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <ul class="portfolio-items col-2 isotope fade-up">
+                        <li class="portfolio-item apps isotope-item">
+                            <div class="item-inner">
+                                <img src="images/portfolio/folio01.jpg" alt="">
+                                <h5>PROYECTOS CATASTRALES</h5>
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio01.jpg"
+                                        rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--/.portfolio-item-->
+                        <li class="portfolio-item joomla nature isotope-item">
+                            <div class="item-inner">
+                                <img src="images/portfolio/folio02.jpg" alt="">
+                                <p>CONSULTORÍA EN EL DESARROLLO DE SISTEMAS DE INFORMACIÓN</p>
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio02.jpg"
+                                        rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--/.portfolio-item-->
+                        <li class="portfolio-item bootstrap design isotope-item">
+                            <div class="item-inner">
+                                <img src="images/portfolio/folio03.jpg" alt="">
+                                <p>GEOLOCALIZACIÓN Y GEORREFERENCIACIÓN</p>
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio03.jpg"
+                                        rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--/.portfolio-item-->
+                        <li class="portfolio-item joomla design apps isotope-item">
+                            <div class="item-inner">
+                                <img src="images/portfolio/folio04.jpg" alt="">
+                                <p>INTEGRACIÓN Y MIGRACIÓN DE DATOS</p>
+                                <div class="overlay">
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio04.jpg"
+                                        rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--/.portfolio-item-->
+
+                    </ul>
+                </div>
+        </section>
+
+        <section id="services" class="white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center gap fade-down section-heading">
+                            <h2 class="main-title">PRODUCTOS</h2>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div row='2'>
+
+                <div class="row">
+                    <div class="col-sm-1" style="margin-right: 50px;"></div>
+
+                    <div class="col-sm-4" style="background-color:lavender;">
+                        <div style="background:rgb(235, 235, 235);">
+                            <p class="center" style="margin-top: 30px;">SISTEMA DE INFORMACIÓN DE GESTIÓN TERRITORIAL
+                                (SIGT)</p>
+                            <div class="gap"></div>
+
+                            <div class="service-block center">
+                                <img class="" src="images/portfolio/folio07.jpg" height="300" width="500">
+                            </div>
+
+                            <div class="center">
+                                <a class="btn btn-outlined  btn-primary " style="margin-bottom: 20px; margin-top: 20px;"
+                                    href="#" data-filter="">Quiero saber más!</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-4" style="margin-right: 50px; margin-top: -20px;">
+                        <div style="background:rgb(235, 235, 235);">
+                            <p class="center" style="margin-top: 30px;">INTEGRACIÓN DE INFORMACIÓN PREDIAL Y CATASTRAL
+                            </p>
+                            <div class="gap"></div>
+
+                            <div class="service-block center">
+                                <img class="" src="images/portfolio/folio08.jpg" height="300" width="500">
+                            </div>
+
+                            <div class="center">
+                                <a class="btn btn-outlined  btn-primary " style="margin-bottom: 20px; margin-top: 20px;"
+                                    href="#" data-filter="">Quiero saber más!</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="services" style="background: rgba(0, 0, 0, 0.527);">
+            <section id="blog">
+                <div class="container">
+                    <div class="center gap fade-down section-heading">
+                        <div class="gap"></div>
+                        <h2 class="main-title" style="color: white;">SERVICIOS</h2>
+                        <hr>
+                        <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
+                    </div>
+                    <div class="gap"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="post">
+                                <div class="post-img-content">
+                                    <img src="images/portfolio/folio02.jpg" class="img-responsive" />
+                                    <div class="overlay">
+                                        <a class="preview btn btn-outlined btn-primary" href="#"><i
+                                                class="fa fa-link"></i></a>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2 class="post-title">DESARROLLO WEB GIS E IMPLEMENTACIÓN DE SERVIDOR DE MAPAS CON
+                                        MAPSERVER​</h2>
+
+                                    <div>
+                                        El objetivo de este curso es preparar al participante en el manejo del software
+                                        para la integración de datos geográficos y bases de datos en un ambiente de Web
+                                        con el uso de los diferentes componentes que ofrece la herramienta.
+                                    </div>
+                                    <div class="read-more-wrapper">
+                                        <a href="#" class="btn btn-outlined btn-primary">¡Quiero saber más!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="post">
+                                <div class="post-img-content">
+                                    <img src="images/portfolio/folio06.jpg" class="img-responsive" />
+                                    <div class="overlay">
+                                        <a class="preview btn btn-outlined btn-primary" href="#"><i
+                                                class="fa fa-link"></i></a>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h2 class="post-title">ARCOBJECTS Y VISUAL STUDIO PARA ARCGIS </h2>
+                                    <div class="author">
+                                    </div>
+                                    <div>
+                                        El objetivo de este curso es capacitar al participante en el manejo de
+                                        ArcObjects y Visual Sutdio con el fin de mejorar las funcionalidades de ArcGIS.
+                                        Enseñar qué es la programación orientada a objetos y los modelos de datos,
+                                        interfaces y clases utilizadas en ArcObjects.
+                                    </div>
+                                    <div class="read-more-wrapper">
+                                        <a href="#" class="btn btn-outlined btn-primary">¡Quiero saber más!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+            </section>
+        </section>
+        <section id="clientes" class=" white">
+            <div class="container">
+                <div class="center gap fade-down section-heading">
+                    <div class="gap"></div>
+                    <h2 class="main-title" style="width: 100%;">CLIENTES</h2>
+                    <hr>
+                </div>
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img width="300" height="193"
+                            src="http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB_Mesa-de-trabajo-1-1-300x193.png"
+                            class="attachment-medium size-medium" alt=""
+                            srcset="http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB_Mesa-de-trabajo-1-1-300x193.png 300w, http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB_Mesa-de-trabajo-1-1.png 498w"
+                            sizes="(max-width: 300px) 100vw, 300px">
+                    </div>
+                    <div class="col-md-4">
+                        <img width="300" height="194"
+                            src="http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-02-300x194.png"
+                            class="attachment-medium size-medium" alt=""
+                            srcset="http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-02-300x194.png 300w, http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-02.png 497w"
+                            sizes="(max-width: 300px) 100vw, 300px">
+                    </div>
+                    <div class="col-md-4">
+                        <img width="300" height="193"
+                            src="http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-07-300x193.png"
+                            class="attachment-medium size-medium" alt=""
+                            srcset="http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-07-300x193.png 300w, http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-07.png 498w"
+                            sizes="(max-width: 300px) 100vw, 300px">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img width="300" height="194"
+                            src="http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-03-300x194.png"
+                            class="attachment-medium size-medium" alt=""
+                            srcset="http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-03-300x194.png 300w, http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-03.png 497w"
+                            sizes="(max-width: 300px) 100vw, 300px">
+                    </div>
+                    <div class="col-md-4">
+                        <img width="300" height="194"
+                            src="http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-04-300x194.png"
+                            class="attachment-medium size-medium" alt=""
+                            srcset="http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-04-300x194.png 300w, http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-04.png 497w"
+                            sizes="(max-width: 300px) 100vw, 300px">
+                    </div>
+                    <div class="col-md-4">
+                        <img width="300" height="193"
+                            src="http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-08-1-300x193.png"
+                            class="attachment-medium size-medium" alt=""
+                            srcset="http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-08-1-300x193.png 300w, http://www.soltesi.com/wp-content/uploads/2018/11/LOGOS-PAGINAS-WEB-08-1.png 498w"
+                            sizes="(max-width: 300px) 100vw, 300px">
+                    </div>
+                </div>
+
+        </section>
+
+
+
+        <section id="contact" class="white">
+            <div class="container">
+                <div class="gap"></div>
+                <div class="center gap fade-down section-heading">
+                    <h2 class="main-title">CONTACTANOS</h2>
+                    <hr>
+                </div>
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-4 fade-up">
+                        <h3>Informacion</h3>
+                        <p><span class="icon icon-home"></span>Time Square, New York<br />
+                            <span class="icon icon-phone"></span>+36 65984 405<br />
+                            <span class="icon icon-mobile"></span>+36 65984 405<br />
+                            <span class="icon icon-envelop"></span> <a href="#">email@infinityteam.com</a> <br />
+                            <span class="icon icon-twitter"></span> <a href="#">@infinityteam.com</a> <br />
+                            <span class="icon icon-facebook"></span> <a href="#">Infinity Agency</a> <br />
+                        </p>
+                    </div><!-- col -->
+
+                    <div class="col-md-8 fade-up">
+                        <h3>Drop Us A Message</h3>
+                        <br>
+                        <br>
+                        <div id="message"></div>
+                        <form method="post" action="sendemail.php" id="contactform">
+                            <input type="text" name="name" id="name" placeholder="Name" />
+                            <input type="text" name="email" id="email" placeholder="Email" />
+                            <input type="text" name="website" id="website" placeholder="Website" />
+                            <textarea name="comments" id="comments" placeholder="Comments"></textarea>
+                            <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Submit" />
+                        </form>
+                    </div><!-- col -->
+                </div><!-- row -->
+                <div class="gap"></div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <script src="js/plugins.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWDPCiH080dNCTYC-uprmLOn2mt2BMSUk&amp;sensor=true"></script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>
